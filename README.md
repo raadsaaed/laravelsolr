@@ -1,4 +1,4 @@
-# LaravelSolr
+# laravelsolr
 
 A Laravel package for seamless integration with Apache Solr, providing easy-to-use commands for core management and a fluent interface for Solr operations.
 
@@ -23,7 +23,7 @@ Add the service provider to your `config/app.php`:
 ```php
 'providers' => [
     // ...
-    haiderjabbar\LaravelSolr\LaravelSolrServiceProvider::class,
+    haiderjabbar\laravelsolr\LaravelSolrServiceProvider::class,
 ];
 ```
 
@@ -54,7 +54,7 @@ php artisan solr:update-fields
 ### Adding Documents
 
 ```php
-use haiderjabbar\LaravelSolr\Models\SolrModel;
+use haiderjabbar\laravelsolr\Models\SolrModel;
 
 $coreName = 'your_core_name';
 $data = [
@@ -124,12 +124,12 @@ class SolrController extends Controller
 
 ## Query Builder
 
-LaravelSolr provides a powerful and fluent interface for building Solr queries through the `SolrQueryBuilder` class:
+laravelsolr provides a powerful and fluent interface for building Solr queries through the `SolrQueryBuilder` class:
 
 ### Basic Usage
 
 ```php
-use haiderjabbar\LaravelSolr\Services\SolrQueryBuilder;
+use haiderjabbar\laravelsolr\Services\SolrQueryBuilder;
 
 $builder = new SolrQueryBuilder($coreName);
 ```
@@ -299,7 +299,7 @@ SOLR_URL=http://localhost:8983/solr
 ## Directory Structure
 
 ```
-LaravelSolr/
+laravelsolr/
 ├── src/
 │   ├── Console/Commands/
 │   │   ├── CreateSolrCore.php
@@ -316,7 +316,7 @@ LaravelSolr/
 │   │   ├── CoreSolrService.php
 │   │   ├── FieldsSolrService.php
 │   │   └── SolrQueryBuilder.php
-│   ├── LaravelSolr.php
+│   ├── laravelsolr.php
 │   ├── LaravelSolrServiceProvider.php
 │   └── SolrServiceProvider.php
 └── tests/

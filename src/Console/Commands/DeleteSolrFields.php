@@ -1,10 +1,10 @@
 <?php
 
-namespace haiderjabbar\LaravelSolr\Console\Commands;
+namespace haiderjabbar\laravelsolr\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
-use haiderjabbar\LaravelSolr\Schema\SolrSchemaBuilder;
+use haiderjabbar\laravelsolr\Schema\SolrSchemaBuilder;
 
 class DeleteSolrFields extends Command
 {
@@ -49,7 +49,7 @@ class DeleteSolrFields extends Command
 <?php
 
 use Illuminate\\Database\\Migrations\\Migration;
-use haiderjabbar\\LaravelSolr\\Services\\FieldsSolrService;
+use haiderjabbar\\laravelsolr\\Services\\FieldsSolrService;
 
 return new class extends Migration
 {

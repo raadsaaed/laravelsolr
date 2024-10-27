@@ -1,21 +1,21 @@
 <?php
-namespace haiderjabbar\LaravelSolr;
+namespace haiderjabbar\laravelsolr;
 
-use haiderjabbar\LaravelSolr\Console\Commands\CreateSolrFields;
-use haiderjabbar\LaravelSolr\Console\Commands\CreateSolrCore;
-use haiderjabbar\LaravelSolr\Console\Commands\DeleteSolrCore;
-use haiderjabbar\LaravelSolr\Console\Commands\DeleteSolrFields;
-use haiderjabbar\LaravelSolr\Console\Commands\UpdateSolrCore;
-use haiderjabbar\LaravelSolr\Console\Commands\UpdateSolrFields;
+use haiderjabbar\laravelsolr\Console\Commands\CreateSolrFields;
+use haiderjabbar\laravelsolr\Console\Commands\CreateSolrCore;
+use haiderjabbar\laravelsolr\Console\Commands\DeleteSolrCore;
+use haiderjabbar\laravelsolr\Console\Commands\DeleteSolrFields;
+use haiderjabbar\laravelsolr\Console\Commands\UpdateSolrCore;
+use haiderjabbar\laravelsolr\Console\Commands\UpdateSolrFields;
 use Illuminate\Support\ServiceProvider;
 
 class LaravelSolrServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        // Register LaravelSolr services
-        $this->app->singleton(LaravelSolr::class, function ($app) {
-            return new LaravelSolr();
+        // Register laravelsolr services
+        $this->app->singleton(laravelsolr::class, function ($app) {
+            return new laravelsolr();
         });
 
         // Merge the configuration file

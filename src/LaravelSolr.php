@@ -1,8 +1,8 @@
 <?php
 
-namespace haiderjabbar\LaravelSolr;
+namespace haiderjabbar\laravelsolr;
 
-class LaravelSolr
+class laravelsolr
 {
     protected $solrUrl;
 

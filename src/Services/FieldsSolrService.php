@@ -1,6 +1,6 @@
 <?php
 
-namespace haiderjabbar\LaravelSolr\Services;
+namespace haiderjabbar\laravelsolr\Services;
 
 use Exception;
 use Illuminate\Support\Facades\Http;

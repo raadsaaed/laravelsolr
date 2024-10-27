@@ -1,8 +1,8 @@
 <?php
 
-namespace haiderjabbar\LaravelSolr\Tests\Unit\Console\Commands;
+namespace haiderjabbar\laravelsolr\Tests\Unit\Console\Commands;
 
-use haiderjabbar\LaravelSolr\Console\Commands\CreateSolrCore;
+use haiderjabbar\laravelsolr\Console\Commands\CreateSolrCore;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Artisan;
 use Tests\TestCase;

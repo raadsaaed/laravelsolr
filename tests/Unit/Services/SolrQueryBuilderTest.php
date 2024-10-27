@@ -1,9 +1,9 @@
 <?php
 
 
-namespace haiderjabbar\LaravelSolr\Tests\Unit\Services;
+namespace haiderjabbar\laravelsolr\Tests\Unit\Services;
 
-use haiderjabbar\LaravelSolr\Services\SolrQueryBuilder;
+use haiderjabbar\laravelsolr\Services\SolrQueryBuilder;
 use Illuminate\Support\Facades\Http;
 
 // Import Http facade correctly

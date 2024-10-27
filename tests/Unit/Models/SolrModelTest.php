@@ -1,13 +1,13 @@
 <?php
 
-namespace haiderjabbar\LaravelSolr\Tests\Unit\Models;
+namespace haiderjabbar\laravelsolr\Tests\Unit\Models;
 
 
 use Tests\TestCase;
 
 // This imports Laravel's TestCase
 use Illuminate\Support\Facades\Http;
-use haiderjabbar\LaravelSolr\Models\SolrModel;
+use haiderjabbar\laravelsolr\Models\SolrModel;
 
 class SolrModelTest extends TestCase
 {

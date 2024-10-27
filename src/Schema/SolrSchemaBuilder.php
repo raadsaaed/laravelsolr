@@ -1,6 +1,6 @@
 <?php
 
-namespace haiderjabbar\LaravelSolr\Schema;
+namespace haiderjabbar\laravelsolr\Schema;
 
 class SolrSchemaBuilder
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace haiderjabbar\LaravelSolr\Console\Commands;
+namespace haiderjabbar\laravelsolr\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
@@ -33,7 +33,7 @@ class CreateSolrCore extends Command
 <?php
 
 use Illuminate\\Database\\Migrations\\Migration;
-use haiderjabbar\\LaravelSolr\\Services\\CoreSolrService;
+use haiderjabbar\\laravelsolr\\Services\\CoreSolrService;
 
 return new class extends Migration
 {
