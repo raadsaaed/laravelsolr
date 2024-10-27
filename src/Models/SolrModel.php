@@ -92,7 +92,6 @@ class SolrModel
                 $child => $childData
             ]
         ];
-
         $response = Http::post("{$solrUrl}/update?commit=true", $data);
         return $response->successful();
     }
