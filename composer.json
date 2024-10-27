@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/HaiderJabbar/laravel-solr"
+            "url": "https://github.com/HaiderJabbar/LaravelSolr"
         }
     ],
     "require": {
