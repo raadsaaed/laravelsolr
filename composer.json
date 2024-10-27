@@ -1,5 +1,5 @@
 {
-    "name": "LaravelSolr",
+    "name": "haiderjabbar/laravelsolr",
     "description": "A Laravel project including the LaravelSolr package",
     "type": "project",
     "license": "MIT",
