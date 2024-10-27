@@ -1,6 +1,6 @@
 <?php
 
-namespace HaiderJabbar\LaravelSolr\Console\Commands;
+namespace haiderjabbar\LaravelSolr\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
@@ -38,7 +38,7 @@ class UpdateSolrCore extends Command
 <?php
 
 use Illuminate\\Database\\Migrations\\Migration;
-use HaiderJabbar\\LaravelSolr\\Services\\CoreSolrService;
+use haiderjabbar\\LaravelSolr\\Services\\CoreSolrService;
 
 return new class extends Migration
 {

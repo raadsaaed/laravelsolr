@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/HaiderJabbar/LaravelSolr"
+            "url": "https://github.com/haiderjabbar/LaravelSolr"
         }
     ],
     "require": {
@@ -25,7 +25,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "HaiderJabbar\\LaravelSolr\\": "vendor/HaiderJabbar/LaravelSolr/src/"
+            "haiderjabbar\\LaravelSolr\\": "vendor/haiderjabbar/LaravelSolr/src/"
         }
     },
     "scripts": {

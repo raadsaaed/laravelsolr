@@ -1,6 +1,6 @@
 <?php
 
-namespace HaiderJabbar\LaravelSolr;
+namespace haiderjabbar\LaravelSolr;
 
 use Illuminate\Support\ServiceProvider;
 

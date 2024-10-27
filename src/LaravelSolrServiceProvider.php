@@ -1,12 +1,12 @@
 <?php
-namespace HaiderJabbar\LaravelSolr;
+namespace haiderjabbar\LaravelSolr;
 
-use HaiderJabbar\LaravelSolr\Console\Commands\CreateSolrFields;
-use HaiderJabbar\LaravelSolr\Console\Commands\CreateSolrCore;
-use HaiderJabbar\LaravelSolr\Console\Commands\DeleteSolrCore;
-use HaiderJabbar\LaravelSolr\Console\Commands\DeleteSolrFields;
-use HaiderJabbar\LaravelSolr\Console\Commands\UpdateSolrCore;
-use HaiderJabbar\LaravelSolr\Console\Commands\UpdateSolrFields;
+use haiderjabbar\LaravelSolr\Console\Commands\CreateSolrFields;
+use haiderjabbar\LaravelSolr\Console\Commands\CreateSolrCore;
+use haiderjabbar\LaravelSolr\Console\Commands\DeleteSolrCore;
+use haiderjabbar\LaravelSolr\Console\Commands\DeleteSolrFields;
+use haiderjabbar\LaravelSolr\Console\Commands\UpdateSolrCore;
+use haiderjabbar\LaravelSolr\Console\Commands\UpdateSolrFields;
 use Illuminate\Support\ServiceProvider;
 
 class LaravelSolrServiceProvider extends ServiceProvider

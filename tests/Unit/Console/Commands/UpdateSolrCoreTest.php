@@ -1,8 +1,8 @@
 <?php
 
-namespace HaiderJabbar\LaravelSolr\Tests\Unit\Console\Commands;
+namespace haiderjabbar\LaravelSolr\Tests\Unit\Console\Commands;
 
-use HaiderJabbar\LaravelSolr\Console\Commands\UpdateSolrCore;
+use haiderjabbar\LaravelSolr\Console\Commands\UpdateSolrCore;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
 use Illuminate\Console\Application;
@@ -44,7 +44,7 @@ class UpdateSolrCoreTest extends TestCase
         $stub = $this->command->getMigrationStub($oldCoreName, $newCoreName);
 
         $this->assertStringContainsString('use Illuminate\\Database\\Migrations\\Migration;', $stub);
-        $this->assertStringContainsString('use HaiderJabbar\\LaravelSolr\\Services\\CoreSolrService;', $stub);
+        $this->assertStringContainsString('use haiderjabbar\\LaravelSolr\\Services\\CoreSolrService;', $stub);
         $this->assertStringContainsString('public function up()', $stub);
         $this->assertStringContainsString('public function down()', $stub);
         $this->assertStringContainsString("\$this->coreSolrService->updateCore('{$oldCoreName}', '{$newCoreName}');", $stub);

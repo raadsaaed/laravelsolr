@@ -1,10 +1,10 @@
 <?php
 
-namespace HaiderJabbar\LaravelSolr\Console\Commands;
+namespace haiderjabbar\LaravelSolr\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
-use HaiderJabbar\LaravelSolr\Schema\SolrSchemaBuilder;
+use haiderjabbar\LaravelSolr\Schema\SolrSchemaBuilder;
 
 class UpdateSolrFields extends Command
 {
@@ -69,9 +69,9 @@ class UpdateSolrFields extends Command
 <?php
 
 use Illuminate\\Database\\Migrations\\Migration;
-use HaiderJabbar\\LaravelSolr\\Services\\FieldsSolrService;
-use HaiderJabbar\\LaravelSolr\\Schema\\SolrSchemaBuilder;
-use HaiderJabbar\\LaravelSolr\\Services\\CoreSolrService;
+use haiderjabbar\\LaravelSolr\\Services\\FieldsSolrService;
+use haiderjabbar\\LaravelSolr\\Schema\\SolrSchemaBuilder;
+use haiderjabbar\\LaravelSolr\\Services\\CoreSolrService;
 
 return new class extends Migration
 {

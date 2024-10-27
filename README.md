@@ -15,7 +15,7 @@ A Laravel package for seamless integration with Apache Solr, providing easy-to-u
 ## Installation
 
 ```bash
-composer require HaiderJabbar/laravel-solr
+composer require haiderjabbar/laravel-solr
 ```
 
 Add the service provider to your `config/app.php`:
@@ -23,7 +23,7 @@ Add the service provider to your `config/app.php`:
 ```php
 'providers' => [
     // ...
-    HaiderJabbar\LaravelSolr\LaravelSolrServiceProvider::class,
+    haiderjabbar\LaravelSolr\LaravelSolrServiceProvider::class,
 ];
 ```
 
@@ -54,7 +54,7 @@ php artisan solr:update-fields
 ### Adding Documents
 
 ```php
-use HaiderJabbar\LaravelSolr\Models\SolrModel;
+use haiderjabbar\LaravelSolr\Models\SolrModel;
 
 $coreName = 'your_core_name';
 $data = [
@@ -129,7 +129,7 @@ LaravelSolr provides a powerful and fluent interface for building Solr queries t
 ### Basic Usage
 
 ```php
-use HaiderJabbar\LaravelSolr\Services\SolrQueryBuilder;
+use haiderjabbar\LaravelSolr\Services\SolrQueryBuilder;
 
 $builder = new SolrQueryBuilder($coreName);
 ```
